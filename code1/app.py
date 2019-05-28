@@ -19,6 +19,7 @@ app.register_blueprint(admin_blu, url_prefix='/admin')  # 后台管理的蓝图
 
 num1 = 10
 num2 = 20
+num3 = 12345
 
 # print(app.url_map)
 if __name__ == '__main__':
