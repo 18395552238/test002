@@ -18,6 +18,7 @@ app.register_blueprint(index_blu, url_prefix='/index')  # 前台个人页面的�
 app.register_blueprint(admin_blu, url_prefix='/admin')  # 后台管理的蓝图
 
 num1 = 10
+num2 = 20
 
 # print(app.url_map)
 if __name__ == '__main__':
