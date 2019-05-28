@@ -24,6 +24,7 @@ num3 = 12345
 =======
 num3 = 30
 >>>>>>> 8cba7ec76729477bcbb8e14c7ecdc064b2cbc731
+num5 = 50
 
 # print(app.url_map)
 if __name__ == '__main__':
