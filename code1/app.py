@@ -17,6 +17,8 @@ from views.index import index_blu
 app.register_blueprint(index_blu, url_prefix='/index')  # 前台个人页面的蓝图
 app.register_blueprint(admin_blu, url_prefix='/admin')  # 后台管理的蓝图
 
+num1 = 10
+
 # print(app.url_map)
 if __name__ == '__main__':
     app.run()
